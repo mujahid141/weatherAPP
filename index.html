@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://use.fontawesome.com/3318d5dc6f.js"></script>
+    <script src="https://kit.fontawesome.com/6a4749d348.js" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <h2>Weather App</h2>
+     </div>
+     <br />
+      <div class="search">
+        <div class="search-container-left"></div>
+        <div class="search-container">
+          <form action=>
+            <input id="city" class="input" type="search" placeholder="Search.." />
+            <button  type="submit" id="submit">Search</button>
+          </form>
+          <div class="search-container-right"></div>
+        </div>
+        
+      </div>
+      
+      <div class="header">
+        <h2><span id="cityName" ></span></h2>
+      </div>
+    <div class="container">
+
+      <div class="card">
+        <h3>Temperature <i class="fa-solid fa-temperature-high"></i></h3>
+        <div class="data">
+          <div id="Queta_temp">current</div>
+          <div id="Queta_max_temp">min </div>
+          <div id="Queta_min_temp">max</div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Cloud <i class="fa-solid fa-cloud-sun"></i></h3>
+        <div class="data">
+          <div id="Queta_cloud_pct">current</div>
+          <div id="Queta_humidity">min </div>
+          <div id="Queta_feels_like">max</div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Sunrise <i class="fa-regular fa-sun"></i></h3>
+        <div class="data">
+          <div id="Queta_wind_speed">current</div>
+          <div id="Queta_sunrise">min </div>
+          <div id="Queta_sunset">max</div>
+        </div>
+      </div>
+        </div>
+  </body>
+</html>
